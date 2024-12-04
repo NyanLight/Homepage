@@ -1,11 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 img {
     height: 20px;
 }
 
 
-* {
-    padding: 0;
-    margin: 0;
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px 55px -25px rgba(0,0,0,0.75);
+}
+
+main h2, header h2 {
+    margin-bottom: 1rem;
+}
+
+
+.card:last-of-type {
+    margin-bottom: 5rem;
+}
+
+.screenshot {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    min-height: 200px;
+    background-color: blue;
+}
+
+.card:nth-of-type(1) .screenshot {
+    background-color: rgb(142, 132, 238);
+}
+
+.card:nth-of-type(2) .screenshot {
+    background-color: rgb(206, 163, 10);
+}
+
+.card:nth-of-type(3) .screenshot {
+    background-color: rgb(80, 150, 36);
+}
+
+.card:nth-of-type(4) .screenshot {
+    background-color: rgb(234, 152, 237);
+}
+
+.card:nth-of-type(5) .screenshot {
+    background-color: rgb(66, 193, 243);
+}
+
+.card:nth-of-type(6) .screenshot {
+    background-color: rgb(80, 150, 36);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower {
+    padding: 1rem 2rem 4rem 2rem;
 }
 
 a {
@@ -28,12 +103,7 @@ footer {
 }
 
 footer  h2 {
-    text-align: center;
-    font-size: 2rem;
     font-family: "Playfair Display", serif;
-    font-weight: 500;
-    font-style: normal;
-      
 }
 
 address {
