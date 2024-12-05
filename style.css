@@ -4,11 +4,36 @@
     box-sizing: border-box;
 }
 
-img {
-    height: 20px;
+.portrait img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 
+header {
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.textAbout {
+    font-size: 1.2rem;
+}
+
+img {
+    height: 20px;
+}
 
 h2 {
     text-align: center;
