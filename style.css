@@ -4,16 +4,19 @@
     box-sizing: border-box;
 }
 
-.portrait img {
-    width: 80%;
-    height: auto;
-    display: block;
+.portrait {
     margin: auto;
+    position: relative;
+    width: 300px;
+    margin-bottom: 1rem;
 }
 
-.portrait {
-    position: relative;
+.portrait img {
+    height: auto;
+    width: 100%;
+    display: block;
 }
+
 
 h1 {
     position: absolute;
@@ -21,28 +24,43 @@ h1 {
     font-family: "Playfair Display", serif;
     bottom: -10px;
     text-shadow: 4px 4px 4px black;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 400;
-    left: 50px;
+    left: 5px;
 }
 
 header {
-    margin-bottom: 3rem;
-    padding-top: 2rem;
     background-image: url(assets/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 70%;
+    background-size: 100% 50%;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
 }
 
 .textAbout {
+    font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
+    color: rgb(108, 108, 108);
+    padding: 0 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.aboutLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.aboutLinks img {
+    height: 2rem;
 }
 
 img {
@@ -51,7 +69,7 @@ img {
 
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Playfair Display", serif;
     font-weight: 500;
     font-style: normal;
@@ -80,13 +98,13 @@ main h2, header h2 {
 }
 
 .screenshot {
+    font-family: "Playfair Display", serif;
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
     font-size: 3rem;
     padding: 3rem 0.8rem;
-    /* min-height: 200px; */
 }
 
 .card:nth-of-type(1) .screenshot {
@@ -118,15 +136,25 @@ main h2, header h2 {
     gap: 0.8rem;
 }
 
+.description {
+    font-family: "Roboto", sans-serif;
+    color: rgb(108, 108, 108);    
+}
+
 .top {
+    font-family: "Playfair Display", serif;
     display: flex;
     justify-content: space-between;
     padding-left: 1rem;
     margin-bottom: 1rem;
 }
 
+h3 {
+    font-weight: 500;
+}
+
 .lower {
-    padding: 1rem 2rem 4rem 2rem;
+    padding: 1rem 1.5rem 4rem 1.5rem;
 }
 
 a {
@@ -169,6 +197,12 @@ address {
 
 .footerLogo {
     height: 30px;
+}
+
+.contact {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    /* font-weight: 400; */
 }
 
 
