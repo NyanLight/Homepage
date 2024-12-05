@@ -11,6 +11,20 @@
     margin: auto;
 }
 
+.portrait {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-family: "Playfair Display", serif;
+    bottom: -10px;
+    text-shadow: 4px 4px 4px black;
+    font-size: 4rem;
+    font-weight: 400;
+    left: 50px;
+}
 
 header {
     margin-bottom: 3rem;
