@@ -41,6 +41,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1300px;
 }
 
 .header__text {
@@ -93,7 +94,8 @@ main h2, header h2 {
 
 
 main {
-    margin-bottom: 10rem;
+    max-width: 1200px;
+    margin: 0 auto 10rem;   
 }
 
 .screenshot {
@@ -300,5 +302,41 @@ footer picture img {
 
     .contactBlock > h2 + div {
         max-width: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    header {
+        margin-bottom: 10rem;
+    }
+    
+    .header__portrait {
+        margin-right: 5rem;
+        transform-origin: 50% 70%;
+        transform: scale(1.6);
+    }
+
+    h1 {
+        top: 15.5rem;
+        left: 2.5rem;
+    }
+
+    header h2 {
+        text-align: left;
+    }
+
+    .header__links {
+        display: flex;
+        justify-content: end;
+    }
+
+    .header__text {
+        padding: 0;
+    }
+
+    footer picture img {
+        height: 400px;
+        width: auto;
     }
 }
