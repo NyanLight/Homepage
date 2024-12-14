@@ -185,7 +185,7 @@ address {
     font-size: 0.9rem;
 }
 
-.addressIcon {
+.address__icon {
     display: none;
 }
 
@@ -266,7 +266,7 @@ footer picture img {
         padding: 0 4rem;
     }
 
-    .top {
+    .information__top {
         padding: 0;
     }
 
@@ -281,7 +281,7 @@ footer picture img {
         justify-content: left;
     }
 
-    .addressIcon {
+    .address__icon {
         display: inline;
     }
 
