@@ -312,7 +312,7 @@ footer picture img {
     
     .header__portrait {
         margin-right: 5rem;
-        transform-origin: 50% 70%;
+        transform-origin: center;
         transform: scale(1.6);
     }
 
