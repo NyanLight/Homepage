@@ -77,9 +77,8 @@ h2 {
 }
 
 .cards {
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -95,7 +94,7 @@ main h2, header h2 {
 
 
 main {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 .screenshot {
@@ -105,7 +104,7 @@ main {
     text-align: center;
     color: white;
     font-size: 3rem;
-    padding: 3rem 0.8rem;
+    padding: 3rem 0.8rem 4rem 0.8rem;
 }
 
 .card:nth-of-type(1) .screenshot {
@@ -222,6 +221,15 @@ footer picture img {
 }
 
 @media (min-width: 700px) {
+
+    .cards {
+        padding: 0 4rem;
+    }
+
+    .top {
+        padding: 0;
+    }
+
     footer {
         display: flex;
         flex-direction: row;
