@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
-.portrait {
-    margin: auto;
+.header__portrait {
     position: relative;
     width: 300px;
     margin-bottom: 1rem;
 }
 
-.portrait img {
+.header__portrait img {
     height: auto;
     margin: auto;
     width: 90%;
     display: block;
-}
+}   
 
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
     color: white;
     font-family: "Playfair Display", serif;
     bottom: -10px;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.082);
     font-size: 3.8rem;
     font-weight: 400;
     left: 1rem;
@@ -221,6 +220,45 @@ footer picture img {
 }
 
 @media (min-width: 700px) {
+
+    header { 
+        padding-top: 6rem;
+    }
+
+
+    .header__wrapper {
+        display: block;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        padding: 4rem 1rem;
+        box-shadow: 10px 10px 55px -25px rgba(0,0,0,0.75);
+    }
+
+    .header__portrait {
+        float: left;
+        transform: scale(1.4);
+        margin: 0 3rem 1rem 0;
+        transform-origin: bottom;
+    }
+
+    h1 {
+        left: 200px;
+        top: -5px;
+        font-size: 2rem;
+        width: 300px;
+    }
+
+    .header__text {
+        width: 100%;
+        line-height: 2rem;
+
+    }
+
+    .header__links {
+        display: none;
+    }
+
 
     .cards {
         padding: 0 4rem;
