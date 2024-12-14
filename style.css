@@ -38,13 +38,13 @@ header {
     padding-top: 2rem;
 }
 
-.about {
+.header__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.textAbout {
+.header__text {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     color: rgb(108, 108, 108);
@@ -53,14 +53,14 @@ header {
     margin-bottom: 1rem;
 }
 
-.aboutLinks {
+.header__links {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
 
-.aboutLinks img {
+.header__links img {
     height: 2rem;
 }
 
