@@ -13,7 +13,8 @@
 
 .portrait img {
     height: auto;
-    width: 100%;
+    margin: auto;
+    width: 90%;
     display: block;
 }
 
@@ -26,7 +27,7 @@ h1 {
     text-shadow: 4px 4px 4px black;
     font-size: 3.8rem;
     font-weight: 400;
-    left: 5px;
+    left: 1rem;
 }
 
 header {
@@ -94,7 +95,6 @@ main h2, header h2 {
 
 
 main {
-    padding: 0 4rem;
     margin-bottom: 5rem;
 }
 
